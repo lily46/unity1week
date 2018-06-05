@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour {
 		}
 
 		if (Input.GetKeyDown(KeyCode.Z)) {
-			ball.transform.GetComponent<Rigidbody2D>().AddForce(new Vector2(100, 500));
+			ball.transform.GetComponent<Rigidbody2D>().AddForce(new Vector2(1000, 1000));
 		}
 
 		if (Input.GetKey(KeyCode.A)) {
